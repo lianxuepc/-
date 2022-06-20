@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
 "    min-width: 200px;\n"
 "    max-width: 200px;\n"
 "    color: white;\n"
-"    background-color:#2f4050\n"
+"    background-color:	#6495ED\n"
 "}\n"
 "#head\n"
 "{\n"
@@ -40,7 +40,7 @@ class Ui_MainWindow(object):
 "#Search\n"
 "{\n"
 "border-radius:5px;\n"
-"background:#293846;\n"
+"background:	#6495ED;\n"
 "border:0.5px solid;\n"
 "border-color:white;\n"
 "\n"
@@ -48,11 +48,11 @@ class Ui_MainWindow(object):
 "QListWidget::item\n"
 "{\n"
 "height:60;\n"
-"background-color:#293846;\n"
+"background-color:	#6495ED;\n"
 "}\n"
 "#frame\n"
 "{\n"
-"background-color:#2f4050\n"
+"background-color:	#6495ED\n"
 "\n"
 "}\n"
 "/*被选中时的背景颜色和左边框颜色*/\n"
@@ -66,7 +66,7 @@ class Ui_MainWindow(object):
 "}\n"
 "/*右侧的层叠窗口的背景颜色*/\n"
 "QStackedWidget {\n"
-"    background: white;\n"
+"    background: 	#6495ED;\n"
 "}\n"
 "/*模拟的页面*/\n"
 "#frame > QLabel\n"
@@ -75,7 +75,7 @@ class Ui_MainWindow(object):
 "}\n"
 "#frame_2\n"
 "{\n"
-"background-color:#CCFFCC;\n"
+"background-color:#6495ED;\n"
 "}\n"
 "#page_2 > QLineEdit,QDateEdit\n"
 "{\n"
@@ -314,7 +314,7 @@ class Ui_MainWindow(object):
         self.Search.setObjectName("Search")
         self.toolButton = QtWidgets.QToolButton(self.frame)
         self.toolButton.setGeometry(QtCore.QRect(170, 170, 21, 20))
-        self.toolButton.setStyleSheet("background-color:#2f4050;\n"
+        self.toolButton.setStyleSheet("background-color:#6495ED;\n"
 "border:0px;\n"
 "\n"
 "border-radius:5px")
@@ -334,14 +334,14 @@ class Ui_MainWindow(object):
         self.role.setObjectName("role")
         self.stackedWidget = QtWidgets.QStackedWidget(self.centralwidget)
         self.stackedWidget.setGeometry(QtCore.QRect(210, 0, 611, 601))
-        self.stackedWidget.setStyleSheet("background-color:#FFFFFF\n"
+        self.stackedWidget.setStyleSheet("background-color:#FFF0F5\n"
 "")
         self.stackedWidget.setObjectName("stackedWidget")
         self.page_3 = QtWidgets.QWidget()
         self.page_3.setObjectName("page_3")
         self.tableBooking = QtWidgets.QTableWidget(self.page_3)
         self.tableBooking.setGeometry(QtCore.QRect(-10, 260, 611, 339))
-        self.tableBooking.setStyleSheet("")
+        self.tableBooking.setStyleSheet("background-color:#FFF0F5")
         self.tableBooking.setObjectName("tableBooking")
         self.tableBooking.setColumnCount(6)
         self.tableBooking.setRowCount(0)
@@ -359,7 +359,7 @@ class Ui_MainWindow(object):
         self.tableBooking.setHorizontalHeaderItem(5, item)
         self.frame_2 = QtWidgets.QFrame(self.page_3)
         self.frame_2.setGeometry(QtCore.QRect(0, 30, 611, 230))
-        self.frame_2.setStyleSheet("background-color:rgb(255, 249, 246)")
+        self.frame_2.setStyleSheet("background-color:#FFF0F5")
         self.frame_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_2.setObjectName("frame_2")
@@ -433,7 +433,7 @@ class Ui_MainWindow(object):
         self.page_2.setObjectName("page_2")
         self.frame_3 = QtWidgets.QFrame(self.page_2)
         self.frame_3.setGeometry(QtCore.QRect(-10, 30, 611, 235))
-        self.frame_3.setStyleSheet("background-color:rgb(255, 249, 246)")
+        self.frame_3.setStyleSheet("background-color:#FFF0F5")
         self.frame_3.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_3.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_3.setObjectName("frame_3")
@@ -496,7 +496,7 @@ class Ui_MainWindow(object):
         self.toolButton_4.setObjectName("toolButton_4")
         self.tableOrder = QtWidgets.QTableWidget(self.page_2)
         self.tableOrder.setGeometry(QtCore.QRect(-20, 270, 611, 339))
-        self.tableOrder.setStyleSheet("")
+        self.tableOrder.setStyleSheet("background-color:#FFF0F5")
         self.tableOrder.setObjectName("tableOrder")
         self.tableOrder.setColumnCount(9)
         self.tableOrder.setRowCount(0)
@@ -540,7 +540,7 @@ class Ui_MainWindow(object):
         self.toolButton_3.setObjectName("toolButton_3")
         self.frame_4 = QtWidgets.QFrame(self.page)
         self.frame_4.setGeometry(QtCore.QRect(-10, 30, 611, 230))
-        self.frame_4.setStyleSheet("background-color:rgb(255, 249, 246)")
+        self.frame_4.setStyleSheet("background-color:#FFF0F5")
         self.frame_4.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_4.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_4.setObjectName("frame_4")

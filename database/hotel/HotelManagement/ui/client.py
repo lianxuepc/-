@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
 "    min-width: 200px;\n"
 "    max-width: 200px;\n"
 "    color: white;\n"
-"    background-color:#2f4050\n"
+"    background-color:	#6495ED\n"
 "}\n"
 "#head\n"
 "{\n"
@@ -40,7 +40,7 @@ class Ui_MainWindow(object):
 "#Search\n"
 "{\n"
 "border-radius:5px;\n"
-"background:#293846;\n"
+"background:	#6495ED;\n"
 "border:0.5px solid;\n"
 "border-color:white;\n"
 "\n"
@@ -48,16 +48,16 @@ class Ui_MainWindow(object):
 "QListWidget::item\n"
 "{\n"
 "height:60;\n"
-"background-color:#293846;\n"
+"background-color:	#6495ED;\n"
 "}\n"
 "#frame\n"
 "{\n"
-"background-color:#2f4050\n"
+"background-color:	#6495ED\n"
 "\n"
 "}\n"
 "/*被选中时的背景颜色和左边框颜色*/\n"
 "QListWidget::item:selected {\n"
-"    background: rgb(52, 52, 52);\n"
+"    background: rgba(52, 52, 52);\n"
 "    border-left: 2px solid rgb(9, 187, 7);\n"
 "}\n"
 "/*鼠标悬停颜色*/\n"
@@ -66,7 +66,7 @@ class Ui_MainWindow(object):
 "}\n"
 "/*右侧的层叠窗口的背景颜色*/\n"
 "QStackedWidget {\n"
-"    background: white;\n"
+"    background: #FFF0F5;\n"
 "}\n"
 "/*模拟的页面*/\n"
 "#frame > QLabel\n"
@@ -303,7 +303,7 @@ class Ui_MainWindow(object):
         self.Search.setObjectName("Search")
         self.toolButton = QtWidgets.QToolButton(self.frame)
         self.toolButton.setGeometry(QtCore.QRect(170, 170, 21, 20))
-        self.toolButton.setStyleSheet("background-color:#2f4050;\n"
+        self.toolButton.setStyleSheet("background-color:	#6495ED;\n"
 "border:0px;\n"
 "\n"
 "border-radius:5px")
@@ -323,7 +323,7 @@ class Ui_MainWindow(object):
         self.role.setObjectName("role")
         self.stackedWidget = QtWidgets.QStackedWidget(self.centralwidget)
         self.stackedWidget.setGeometry(QtCore.QRect(200, 0, 611, 601))
-        self.stackedWidget.setStyleSheet("background-color:#FFFFFF\n"
+        self.stackedWidget.setStyleSheet("background-color:#FFF0F5\n"
 "")
         self.stackedWidget.setObjectName("stackedWidget")
         self.page_3 = QtWidgets.QWidget()
@@ -350,7 +350,7 @@ class Ui_MainWindow(object):
         self.tableClient.setHorizontalHeaderItem(6, item)
         self.frame_2 = QtWidgets.QFrame(self.page_3)
         self.frame_2.setGeometry(QtCore.QRect(0, 30, 611, 230))
-        self.frame_2.setStyleSheet("background-color:rgb(255, 249, 246)")
+        self.frame_2.setStyleSheet("background-color:	#FFF0F5")
         self.frame_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_2.setObjectName("frame_2")
@@ -415,7 +415,7 @@ class Ui_MainWindow(object):
         self.split_3.setFrameShadow(QtWidgets.QFrame.Raised)
         self.split_3.setObjectName("split_3")
         self.toolButton_2 = QtWidgets.QToolButton(self.page_3)
-        self.toolButton_2.setGeometry(QtCore.QRect(0, 0, 101, 31))
+        self.toolButton_2.setGeometry(QtCore.QRect(0, 0, 140, 31))
         font = QtGui.QFont()
         font.setFamily("FontAwesome")
         font.setPointSize(10)
@@ -465,7 +465,7 @@ class Ui_MainWindow(object):
         self.cphone.setGeometry(QtCore.QRect(220, 480, 221, 21))
         self.cphone.setObjectName("cphone")
         self.toolButton_3 = QtWidgets.QToolButton(self.page_2)
-        self.toolButton_3.setGeometry(QtCore.QRect(0, 0, 111, 31))
+        self.toolButton_3.setGeometry(QtCore.QRect(0, 0, 140, 31))
         font = QtGui.QFont()
         font.setFamily("FontAwesome")
         font.setPointSize(10)
@@ -481,11 +481,11 @@ class Ui_MainWindow(object):
         self.toolButton_3.setObjectName("toolButton_3")
         self.commitAdd = QtWidgets.QPushButton(self.page_2)
         self.commitAdd.setGeometry(QtCore.QRect(200, 550, 211, 31))
-        self.commitAdd.setStyleSheet("#commitAdd{background:#CCFFCC;\n"
+        self.commitAdd.setStyleSheet("#commitAdd{background:	#FFB6C1;\n"
 "border-radius:8px}\n"
 "#commitAdd:hover\n"
 "{\n"
-"background:#CCFF99\n"
+"background:	#FFC0CB\n"
 "}")
         self.commitAdd.setObjectName("commitAdd")
         self.cfemale = QtWidgets.QRadioButton(self.page_2)
@@ -529,11 +529,11 @@ class Ui_MainWindow(object):
         self.label_15.setObjectName("label_15")
         self.commitAddT = QtWidgets.QPushButton(self.page_2)
         self.commitAddT.setGeometry(QtCore.QRect(200, 200, 211, 31))
-        self.commitAddT.setStyleSheet("#commitAddT{background:#CCFFCC;\n"
+        self.commitAddT.setStyleSheet("#commitAddT{background:	#FFB6C1;\n"
 "border-radius:8px}\n"
 "#commitAddT:hover\n"
 "{\n"
-"background:#CCFF99\n"
+"background:	#FFC0CB\n"
 "}")
         self.commitAddT.setObjectName("commitAddT")
         self.label_9 = QtWidgets.QLabel(self.page_2)

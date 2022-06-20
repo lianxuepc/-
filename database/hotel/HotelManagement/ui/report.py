@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
 "    min-width: 200px;\n"
 "    max-width: 200px;\n"
 "    color: white;\n"
-"    background-color:#2f4050\n"
+"    background-color:	#6495ED\n"
 "}\n"
 "#head\n"
 "{\n"
@@ -40,7 +40,7 @@ class Ui_MainWindow(object):
 "#Search\n"
 "{\n"
 "border-radius:5px;\n"
-"background:#293846;\n"
+"background:	#6495ED;\n"
 "border:0.5px solid;\n"
 "border-color:white;\n"
 "\n"
@@ -48,11 +48,11 @@ class Ui_MainWindow(object):
 "#listWidget::item\n"
 "{\n"
 "height:60;\n"
-"background-color:#293846;\n"
+"background-color:	#6495ED;\n"
 "}\n"
 "#frame\n"
 "{\n"
-"background-color:#2f4050\n"
+"background-color:	#6495ED\n"
 "\n"
 "}\n"
 "/*被选中时的背景颜色和左边框颜色*/\n"
@@ -66,7 +66,7 @@ class Ui_MainWindow(object):
 "}\n"
 "/*右侧的层叠窗口的背景颜色*/\n"
 "QStackedWidget {\n"
-"    background: white;\n"
+"    background:	#FFF0F5;\n"
 "}\n"
 "/*模拟的页面*/\n"
 "#frame > QLabel\n"
@@ -315,7 +315,7 @@ class Ui_MainWindow(object):
         self.Search.setObjectName("Search")
         self.toolButton = QtWidgets.QToolButton(self.frame)
         self.toolButton.setGeometry(QtCore.QRect(170, 170, 21, 20))
-        self.toolButton.setStyleSheet("background-color:#2f4050;\n"
+        self.toolButton.setStyleSheet("background-color:#6495ED;\n"
 "border:0px;\n"
 "\n"
 "border-radius:5px")
@@ -643,7 +643,7 @@ class Ui_MainWindow(object):
         self.page = QtWidgets.QWidget()
         self.page.setObjectName("page")
         self.toolButton_2 = QtWidgets.QToolButton(self.page)
-        self.toolButton_2.setGeometry(QtCore.QRect(10, 0, 101, 31))
+        self.toolButton_2.setGeometry(QtCore.QRect(10, 0, 40, 31))
         font = QtGui.QFont()
         font.setFamily("FontAwesome")
         font.setPointSize(10)
@@ -1051,7 +1051,7 @@ class Ui_MainWindow(object):
 "border-radius:8px}\n"
 "#scan:hover\n"
 "{\n"
-"background:#CCFF99\n"
+"background:	#FFC0CB\n"
 "}")
         self.scan.setObjectName("scan")
         self.label_31 = QtWidgets.QLabel(self.page)
@@ -1066,7 +1066,7 @@ class Ui_MainWindow(object):
 "border-radius:8px}\n"
 "#scan_2:hover\n"
 "{\n"
-"background:#CCFF99\n"
+"background:	#FFC0CB\n"
 "}")
         self.scan_2.setObjectName("scan_2")
         self.path2 = QtWidgets.QLineEdit(self.page)
@@ -1089,7 +1089,7 @@ class Ui_MainWindow(object):
 "border-radius:8px}\n"
 "#scan_3:hover\n"
 "{\n"
-"background:#CCFF99\n"
+"background:	#FFC0CB\n"
 "}")
         self.scan_3.setObjectName("scan_3")
         self.path3 = QtWidgets.QLineEdit(self.page)
@@ -1159,7 +1159,7 @@ class Ui_MainWindow(object):
         self.line_5.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line_5.setObjectName("line_5")
         self.toolButton_3 = QtWidgets.QToolButton(self.page_2)
-        self.toolButton_3.setGeometry(QtCore.QRect(10, 0, 101, 31))
+        self.toolButton_3.setGeometry(QtCore.QRect(10, 0, 140, 31))
         font = QtGui.QFont()
         font.setFamily("FontAwesome")
         font.setPointSize(10)
@@ -1191,7 +1191,7 @@ class Ui_MainWindow(object):
 "border-radius:8px}\n"
 "#showfigure1:hover\n"
 "{\n"
-"background:#CCFF99\n"
+"background:	#FFC0CB\n"
 "}")
         self.showfigure1.setObjectName("showfigure1")
         self.groupBox = QtWidgets.QGroupBox(self.page_3)
@@ -1208,7 +1208,7 @@ class Ui_MainWindow(object):
 "border-radius:8px}\n"
 "#showfigure2:hover\n"
 "{\n"
-"background:#CCFF99\n"
+"background:	#FFC0CB\n"
 "}")
         self.showfigure2.setObjectName("showfigure2")
         self.groupBox_2 = QtWidgets.QGroupBox(self.page_4)

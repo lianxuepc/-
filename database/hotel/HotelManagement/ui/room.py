@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
 "    min-width: 200px;\n"
 "    max-width: 200px;\n"
 "    color: white;\n"
-"    background-color:#2f4050\n"
+"    background-color:#6495ED\n"
 "}\n"
 "#head\n"
 "{\n"
@@ -40,7 +40,7 @@ class Ui_MainWindow(object):
 "#Search\n"
 "{\n"
 "border-radius:5px;\n"
-"background:#293846;\n"
+"background:#6495ED;\n"
 "border:0.5px solid;\n"
 "border-color:white;\n"
 "\n"
@@ -48,11 +48,11 @@ class Ui_MainWindow(object):
 "#listWidget::item\n"
 "{\n"
 "height:60;\n"
-"background-color:#293846;\n"
+"background-color:#6495ED;\n"
 "}\n"
 "#frame\n"
 "{\n"
-"background-color:#2f4050\n"
+"background-color:#6495ED\n"
 "\n"
 "}\n"
 "/*被选中时的背景颜色和左边框颜色*/\n"
@@ -66,7 +66,7 @@ class Ui_MainWindow(object):
 "}\n"
 "/*右侧的层叠窗口的背景颜色*/\n"
 "QStackedWidget {\n"
-"    background: white;\n"
+"    background:	#FFF0F5;\n"
 "}\n"
 "/*模拟的页面*/\n"
 "#frame > QLabel\n"
@@ -348,7 +348,7 @@ class Ui_MainWindow(object):
         self.Search.setObjectName("Search")
         self.toolButton = QtWidgets.QToolButton(self.frame)
         self.toolButton.setGeometry(QtCore.QRect(170, 170, 21, 20))
-        self.toolButton.setStyleSheet("background-color:#2f4050;\n"
+        self.toolButton.setStyleSheet("background-color:#6495ED;\n"
 "border:0px;\n"
 "\n"
 "border-radius:5px")
@@ -372,7 +372,7 @@ class Ui_MainWindow(object):
         self.page = QtWidgets.QWidget()
         self.page.setObjectName("page")
         self.toolButton_2 = QtWidgets.QToolButton(self.page)
-        self.toolButton_2.setGeometry(QtCore.QRect(0, 0, 101, 31))
+        self.toolButton_2.setGeometry(QtCore.QRect(0, 0, 140, 31))
         font = QtGui.QFont()
         font.setFamily("FontAwesome")
         font.setPointSize(10)
@@ -440,11 +440,11 @@ class Ui_MainWindow(object):
         self.inputStartTime.setObjectName("inputStartTime")
         self.commitSearch = QtWidgets.QPushButton(self.page)
         self.commitSearch.setGeometry(QtCore.QRect(190, 210, 211, 31))
-        self.commitSearch.setStyleSheet("#commitSearch{background:#CCFFCC;\n"
+        self.commitSearch.setStyleSheet("#commitSearch{background:#FFB6C1;\n"
 "border-radius:8px}\n"
 "#commitSearch:hover\n"
 "{\n"
-"background:#CCFF99\n"
+"background:#FFC0CB\n"
 "}")
         self.commitSearch.setObjectName("commitSearch")
         self.line = QtWidgets.QFrame(self.page)
@@ -469,7 +469,7 @@ class Ui_MainWindow(object):
         self.scrollArea = QtWidgets.QScrollArea(self.page)
         self.scrollArea.setGeometry(QtCore.QRect(0, 260, 601, 341))
         self.scrollArea.setContextMenuPolicy(QtCore.Qt.DefaultContextMenu)
-        self.scrollArea.setStyleSheet("background-color:white")
+        self.scrollArea.setStyleSheet("background-color:#FFF0F5")
         self.scrollArea.setFrameShape(QtWidgets.QFrame.NoFrame)
         self.scrollArea.setVerticalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOn)
         self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAsNeeded)
@@ -492,18 +492,18 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
         self.reset = QtWidgets.QPushButton(self.page)
         self.reset.setGeometry(QtCore.QRect(530, 220, 51, 31))
-        self.reset.setStyleSheet("#reset{background:#CCFFCC;\n"
+        self.reset.setStyleSheet("#reset{background:	#FFB6C1;\n"
 "border-radius:8px}\n"
 "#reset:hover\n"
 "{\n"
-"background:#CCFF99\n"
+"background:	#FFC0CB\n"
 "}")
         self.reset.setObjectName("reset")
         self.stackedWidget.addWidget(self.page)
         self.page_2 = QtWidgets.QWidget()
         self.page_2.setObjectName("page_2")
         self.toolButton_3 = QtWidgets.QToolButton(self.page_2)
-        self.toolButton_3.setGeometry(QtCore.QRect(0, 0, 101, 31))
+        self.toolButton_3.setGeometry(QtCore.QRect(0, 0, 140, 31))
         font = QtGui.QFont()
         font.setFamily("FontAwesome")
         font.setPointSize(10)
@@ -806,7 +806,7 @@ class Ui_MainWindow(object):
         self.page_3 = QtWidgets.QWidget()
         self.page_3.setObjectName("page_3")
         self.toolButton_4 = QtWidgets.QToolButton(self.page_3)
-        self.toolButton_4.setGeometry(QtCore.QRect(0, 0, 101, 31))
+        self.toolButton_4.setGeometry(QtCore.QRect(0, 0, 140, 31))
         font = QtGui.QFont()
         font.setFamily("FontAwesome")
         font.setPointSize(10)
@@ -1135,7 +1135,7 @@ class Ui_MainWindow(object):
         self.page_4 = QtWidgets.QWidget()
         self.page_4.setObjectName("page_4")
         self.toolButton_5 = QtWidgets.QToolButton(self.page_4)
-        self.toolButton_5.setGeometry(QtCore.QRect(0, 0, 101, 31))
+        self.toolButton_5.setGeometry(QtCore.QRect(0, 0, 140, 31))
         font = QtGui.QFont()
         font.setFamily("FontAwesome")
         font.setPointSize(10)
@@ -1239,7 +1239,7 @@ class Ui_MainWindow(object):
         self.page_5 = QtWidgets.QWidget()
         self.page_5.setObjectName("page_5")
         self.toolButton_6 = QtWidgets.QToolButton(self.page_5)
-        self.toolButton_6.setGeometry(QtCore.QRect(0, 0, 101, 31))
+        self.toolButton_6.setGeometry(QtCore.QRect(0, 0, 140, 31))
         font = QtGui.QFont()
         font.setFamily("FontAwesome")
         font.setPointSize(10)
@@ -1461,7 +1461,7 @@ class Ui_MainWindow(object):
         item = self.listWidget.item(1)
         item.setText(_translate("MainWindow", "  办理入住"))
         item = self.listWidget.item(2)
-        item.setText(_translate("MainWindow", "预定登记和取消"))
+        item.setText(_translate("MainWindow", "  预定登记"))
         item = self.listWidget.item(3)
         item.setText(_translate("MainWindow", "  办理退房"))
         item = self.listWidget.item(4)
@@ -1477,7 +1477,7 @@ class Ui_MainWindow(object):
         self.inputType.setItemText(4, _translate("MainWindow", "总统套房"))
         self.label_22.setText(_translate("MainWindow", "房型："))
         self.label_23.setText(_translate("MainWindow", "房间状态："))
-        self.label_24.setText(_translate("MainWindow", "预计入住时间："))
+        self.label_24.setText(_translate("MainWindow", "入住时间："))
         self.label_25.setText(_translate("MainWindow", "价格范围："))
         self.label_26.setText(_translate("MainWindow", "—"))
         self.label_27.setText(_translate("MainWindow", "楼层："))

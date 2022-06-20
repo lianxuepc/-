@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
 "    min-width: 200px;\n"
 "    max-width: 200px;\n"
 "    color: white;\n"
-"    background-color:	#87CEFA\n"
+"    background-color:	#6495ED\n"
 "}\n"
                                  
 "#head\n"
@@ -43,7 +43,7 @@ class Ui_MainWindow(object):
 "#Search\n"
 "{\n"
 "border-radius:5px;\n"
-"background:#293846;\n"
+"background:#6495ED;\n"
 "border:0.5px solid;\n"
 "border-color:white;\n"
 "\n"
@@ -52,12 +52,12 @@ class Ui_MainWindow(object):
 "QListWidget::item\n"
 "{\n"
 "height:60;\n"
-"background-color:#5f6c7b;\n"
+"background-color:#6495ED;\n"
 "}\n"
                                  
 "#frame\n"
 "{\n"
-"background-color:	#87CEFA\n"
+"background-color:	#6495ED\n"
 "\n"
 "}\n"
 "/*被选中时的背景颜色和左边框颜色*/\n"
@@ -81,7 +81,7 @@ class Ui_MainWindow(object):
                                  
 "#frame_2\n"
 "{\n"
-"background-color:	#87CEFA;\n"
+"background-color:	#FFF0F5;\n"
 "}\n"
 "#page_2 > QLineEdit,QDateEdit\n"
 "{\n"
@@ -328,7 +328,7 @@ class Ui_MainWindow(object):
         self.searchTable.setHorizontalHeaderItem(8, item)
         self.frame_2 = QtWidgets.QFrame(self.page_3)
         self.frame_2.setGeometry(QtCore.QRect(10, 30, 611, 211))
-        self.frame_2.setStyleSheet("background-color:	#F0F8FF")
+        self.frame_2.setStyleSheet("background-color:	#FFF0F5")
         self.frame_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_2.setObjectName("frame_2")
@@ -342,7 +342,7 @@ class Ui_MainWindow(object):
         self.searchName.setObjectName("searchName")
         self.searchNB = QtWidgets.QToolButton(self.frame_2)
         self.searchNB.setGeometry(QtCore.QRect(370, 40, 101, 41))
-        self.searchNB.setStyleSheet("background-color:rgb(255, 249, 246);\n"
+        self.searchNB.setStyleSheet("background-color:	#FFF0F5;\n"
 "border:0px;\n"
 "\n"
 "border-radius:5px")
@@ -363,11 +363,11 @@ class Ui_MainWindow(object):
         self.modifyvalue.setObjectName("modifyvalue")
         self.commitTableModify = QtWidgets.QPushButton(self.frame_2)
         self.commitTableModify.setGeometry(QtCore.QRect(170, 155, 121, 31))
-        self.commitTableModify.setStyleSheet("#commitTableModify{background:#CCFFCC;\n"
+        self.commitTableModify.setStyleSheet("#commitTableModify{background:	#FFB6C1;\n"
 "border-radius:8px}\n"
 "#commitTableModify:hover\n"
 "{\n"
-"background:#CCFF99\n"
+"background:	#FFC0CB\n"
 "}")
         self.commitTableModify.setObjectName("commitTableModify")
         self.label_78 = QtWidgets.QLabel(self.frame_2)
@@ -378,11 +378,11 @@ class Ui_MainWindow(object):
         self.label_78.setObjectName("label_78")
         self.commitTableDel = QtWidgets.QPushButton(self.frame_2)
         self.commitTableDel.setGeometry(QtCore.QRect(170, 110, 121, 31))
-        self.commitTableDel.setStyleSheet("#commitTableDel{background:#CCFFCC;\n"
+        self.commitTableDel.setStyleSheet("#commitTableDel{background:#FFB6C1;\n"
 "border-radius:8px}\n"
 "#commitTableDel:hover\n"
 "{\n"
-"background:#CCFF99\n"
+"background:	#FFC0CB\n"
 "}")
         self.commitTableDel.setObjectName("commitTableDel")
         self.split_3 = QtWidgets.QFrame(self.page_3)
@@ -394,7 +394,7 @@ class Ui_MainWindow(object):
         self.split_3.setFrameShadow(QtWidgets.QFrame.Raised)
         self.split_3.setObjectName("split_3")
         self.toolButton_2 = QtWidgets.QToolButton(self.page_3)
-        self.toolButton_2.setGeometry(QtCore.QRect(20, 0, 101, 31))
+        self.toolButton_2.setGeometry(QtCore.QRect(20, 0, 140, 31))
         font = QtGui.QFont()
         font.setFamily("FontAwesome")
         font.setPointSize(10)
@@ -481,7 +481,7 @@ class Ui_MainWindow(object):
         self.inputphone.setGeometry(QtCore.QRect(220, 470, 221, 21))
         self.inputphone.setObjectName("inputphone")
         self.toolButton_3 = QtWidgets.QToolButton(self.page_2)
-        self.toolButton_3.setGeometry(QtCore.QRect(20, 0, 111, 31))
+        self.toolButton_3.setGeometry(QtCore.QRect(20, 0, 140, 31))
         font = QtGui.QFont()
         font.setFamily("FontAwesome")
         font.setPointSize(10)
@@ -497,7 +497,7 @@ class Ui_MainWindow(object):
         self.toolButton_3.setObjectName("toolButton_3")
         self.commitAdd = QtWidgets.QPushButton(self.page_2)
         self.commitAdd.setGeometry(QtCore.QRect(200, 530, 211, 31))
-        self.commitAdd.setStyleSheet("#commitAdd{background:#CCFFCC;\n"
+        self.commitAdd.setStyleSheet("#commitAdd{background:#	#FFF0F5;\n"
 "border-radius:8px}\n"
 "#commitAdd:hover\n"
 "{\n"
@@ -526,7 +526,7 @@ class Ui_MainWindow(object):
         self.split_4.setFrameShadow(QtWidgets.QFrame.Raised)
         self.split_4.setObjectName("split_4")
         self.toolButton_4 = QtWidgets.QToolButton(self.page_4)
-        self.toolButton_4.setGeometry(QtCore.QRect(20, 0, 111, 31))
+        self.toolButton_4.setGeometry(QtCore.QRect(20, 0, 140, 31))
         font = QtGui.QFont()
         font.setFamily("FontAwesome")
         font.setPointSize(10)
@@ -587,11 +587,11 @@ class Ui_MainWindow(object):
         self.label_20.setObjectName("label_20")
         self.commitDe = QtWidgets.QPushButton(self.page_4)
         self.commitDe.setGeometry(QtCore.QRect(240, 210, 93, 28))
-        self.commitDe.setStyleSheet("#commitDe{background:#CCFFCC;\n"
+        self.commitDe.setStyleSheet("#commitDe{background:#FFB6C1;\n"
 "border-radius:8px}\n"
 "#commitDe:hover\n"
 "{\n"
-"background:#CCFF99\n"
+"background:#FFC0CB\n"
 "}")
         self.commitDe.setObjectName("commitDe")
         self.label_21 = QtWidgets.QLabel(self.page_4)
@@ -828,7 +828,7 @@ class Ui_MainWindow(object):
         self.Search.setObjectName("Search")
         self.toolButton = QtWidgets.QToolButton(self.frame)
         self.toolButton.setGeometry(QtCore.QRect(170, 170, 21, 20))
-        self.toolButton.setStyleSheet("background-color:#2f4050;\n"
+        self.toolButton.setStyleSheet("background-color:	#6495ED;\n"
 "border:0px;\n"
 "\n"
 "border-radius:5px")

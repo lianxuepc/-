@@ -67,7 +67,7 @@ class RoomOp(QMainWindow, Ui_MainWindow):
         self.flayout.addWidget(lb)
         self.flayout.addWidget(QLabel("房间号:" + rid, self, styleSheet="color: #d19275;"))
         self.flayout.addWidget(QLabel("类型:" + rtype, self, styleSheet="color: #d19275;", openExternalLinks=True))
-        self.flayout.addWidget(QLabel("价格:" + rprice, self, styleSheet="color: #d19275;", openExternalLinks=True))
+        self.flayout.addWidget(QLabel("价格:" + str(rprice), self, styleSheet="color: #d19275;", openExternalLinks=True))
         pb = QPushButton(self)
         pb.setFixedSize(80, 25)
         pb.setText("立即订购")
@@ -104,7 +104,8 @@ class RoomOp(QMainWindow, Ui_MainWindow):
         if price_up == '':
             price_up = 10000
         r = Room()
-        da = r.showRoom(rtype, rstate, rstorey, rstarttime, rendtime, price_bottom, price_up)
+        da = r.getRoom(rtype, rstate, rstorey, rstarttime, rendtime, price_bottom, price_up)
+        print(da)
         length = len(da)
         if length == 0:
             QMessageBox().information(None, "提示", "没有符合要求的记录！", QMessageBox.Yes)
@@ -300,7 +301,7 @@ class RoomOp(QMainWindow, Ui_MainWindow):
         column = row_selected[0].column()
         value = self.modifyvalue.text()
         r = Room()
-        r.modifyRoom(row, column, value)
+        r.modifyRoomOnTable(row, column, value)
         tvalue = QTableWidgetItem(('%s') % (value))
         self.roomTable.setItem(row, column, tvalue)
         QMessageBox().information(None, "提示", "修改成功！", QMessageBox.Yes)
